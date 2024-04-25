@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Grilla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr> <!--Table Row: FILAS-->
+            <th colspan="5" class="cursos">CURSOS 2020</th> <!--TH: ENCABEZADOS-->
+        </tr>
+        <tr>
+        <td class="day">LUNES</td> <!--Table Data: CELDAS-->
+        <td class="day">MARTES</td>
+        <td class="day">MIERCOLES</td>
+        <td class="day">JUEVES</td>
+        <td class="day">VIERNES</td>
+        </tr>
+        <tr>
+        <td class="programs">PHP</td>
+        <td class="programs">FLASH</td>
+        <td rowspan="2" class="html">HTML</td> <!--Con rowspan / colspan puedo definir la cantidad de celdas que ocupa-->
+        <td colspan="2" class="programs">PHP</td>
+        </tr>
+        <tr>
+        <td colspan="2" class="programs">CSS</td>
+        <td class="programs">DW</td>
+        <td rowspan="2" class="programs">FLASH</td>
+        </tr>
+        <tr>
+        <td colspan="2" class="programs">PHP</td>
+        <td class="programs">FLASH</td>
+        <td class="programs">CSS</td>
+        </tr>
+    </table>
+</body>
+</html>
